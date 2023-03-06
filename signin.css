@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bgcolour);
+}
+
+:root {
+    --transitcolour: rgb(5, 199, 157);
+    --generalcolour: rgb(12, 131, 105);
+    --dimdark: rgb(11, 70, 57);
+    --bgcolour: rgb(230, 236, 233);
+}
+
+.signupcont button {
+    width: 15%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: rgb(80, 80, 184);
+    border: none;
+}
+
+.signupcont button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signupcont {
+    display: flex;
+    margin-left: 400px;
+}
+
+.text {
+    margin-top: 20px;
+    line-height: 6px;
+    font-size: 12px;
+}
+
+.text a {
+    color: #333;
+    margin-left: 10px;
+}
+
+.signincont h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(165, 165, 165);
+}
+
+.signinform {
+    background-color: #fff;
+    height: 600px;
+    width: 30%;
+    margin-left: 25rem;
+}
+
+.signinform h4 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #000;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.signinform p {
+    text-align: center;
+}
+
+.signinform i {
+    position: absolute;
+}
+
+.signinform input {
+    text-align: left;
+    padding-left: 48px;
+}
+
+.form-control {
+    margin-top: 30px;
+    width: 90%;
+    height: 60px;
+    margin-left: 20px;
+}
+
+#envelope {
+    margin-top: 22px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#phone {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#lock {
+    margin-top: 52px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#key {
+    margin-top: 53px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-left: 100px;
+    width: 50%;
+}
+
+#sublock {
+    padding-right: -20px;
+}
+
+.tandc {
+    font-size: 12px;
+    width: 3%;
+    text-align: center;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+
+.tandc a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .signupcont {
+        margin-left: 230px;
+        width: 70%;
+    }
+    .signinform {
+        margin-left: 50px;
+        width: 80%;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Earning Plan</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="icon" type="image/x-icon" href="/imgsrc/titlefavicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="/highplan.css">
+</head>
+
+<body>
+    <div class="toptxt">
+        <h1>The High Earning Plan</h1>
+        <hr>
+    </div>
+    <div class="firstcont">
+        <div class="personalinfo">
+            <p class="pdrop">Personal Details <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
+            <div class="pform">
+                Please fill out in order for us to know your personal identity.
+                <form action="">
+                    <input type="text" class="form-control" required="required" placeholder="Enter Username ">
+                    <input type="text" class="form-control" required="required" placeholder="Enter FirstName">
+                    <input type="text" class="form-control" required="required" placeholder="Enter LastName">
+                    <div class="esclass">
+                        <label>Sex:</label>
+                        <select name="" id="">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+                        <input type="text" class="form-control" required="required" placeholder="Enter Address">
+                    </div>
+
+                    <input type="text" class="form-control" required="required" placeholder="Enter City">
+                    <input type="text" class="form-control" required="required" placeholder="Enter State">
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <div class="financialdetails">
+            <p class="pdrop">Financial Details <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
+            <div class="fform">
+                <p>Please fill out in order to enable to secure account and easy widthrawal.</p>
+                <form action="">
+                    <input type="text" class="form-control" required="required" placeholder="Enter Bank name">
+                    <input type="text" class="form-control" required="required" placeholder="Enter Account name">
+                    <input type="number" class="form-control" required="required" placeholder="Enter Account number">
+                </form>
+            </div>
+        </div>
+        <br> <br>
+        <div class="NextOfKinDetails">
+            <p class="pdrop">Next Of Kin Details <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
+            <div class="kform">
+                <p>Please fill out in order to prevent loss of money.</p>
+                <form action="">
+                    <input type="text" class="form-control" required="required" placeholder="Enter FirstName">
+                    <input type="text" class="form-control" required="required" placeholder="Enter LastName">
+                    <input type="email" class="form-control" required="required" placeholder="Enter Email">
+                    <input type="tel" class="form-control" required="required" placeholder="Enter PhoneNumber">
+                    <div class="select">
+                        <label>Sex:</label>
+                        <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                        <label>Relationship Status:</label>
+                        <select>
+                        <option>Married</option>
+                        <option>Single</option>
+                        <option>Other</option>
+                    </select>
+                    </div>
+                    <input type="text" class="form-control" required="required" placeholder="Enter BankName">
+                    <input type="number" class="form-control" required="required" placeholder="Enter Account number">
+                    <input type="text" class="form-control" required="required" placeholder="Enter Account name">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="secondcont">
+        <div class="cont">
+            <h4>Set Your Budgeting Plan</h4>
+            <hr>
+            <div class="planscont">
+                <label>Min Earning</label>
+                <input type="number" class="plan" required="required" min="500000" max="100000000" value="500000">
+                <i class="fa fa-1x fa-arrow-right"></i>
+                <input type="number" class="plan" required="required" min="500000" max="100000000" value="100000000">
+                <label>Max Earning</label>
+            </div>
+            <hr>
+            <div class="timecont">
+                <div class="monthcont">
+                    <input type="number" onfocusout="calculate()" id="income" required="required" class="inp" placeholder="Enter income in a month">
+                    <input type="number" onfocusout="calculate()" id="debt" required="required" class="inp" placeholder="Enter debt in a month">
+                    <input type="number" onfocusout="calculate()" id="expense" required="required" class="inp" placeholder="Enter your priority / expenses in a month">
+                    <input type="number" onblur="savings()" id="amount" readonly required="required" class="inpl" placeholder="Amount to be saved for a month every week">
+                </div>
+                <div class="yearcont">
+                    <input type="number" id="incyr" readonly required="required" class="inp" placeholder="Income in a year">
+                    <input type="number" id="debtyr" readonly required="required" class="inp" placeholder="Debt in a year">
+                    <input type="number" id="expyr" readonly required="required" class="inp" placeholder="Priority / expenses in a year">
+                    <input type="number" id="amtyr" readonly required="required" class="inpl" placeholder="Amount that will be saved in a year">
+                </div>
+            </div>
+            <div class="inttimecont">
+                <label for="inttime">Select time to be collected weekly:</label>
+                <input type="time" id="timeid" name="inttime">
+            </div>
+            <input class="subbtn" onclick="subbtn()" type="submit">
+        </div>
+
+    </div>
+    <script src="/highplan.js"></script>
+</body>
+
+</html>

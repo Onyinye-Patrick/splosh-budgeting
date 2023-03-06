@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.toptxt {
+    padding: 60px 10px;
+}
+
+.toptxt h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.toptxt hr {
+    background-color: #000;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.personalinfo {
+    padding-left: 30px;
+    width: 25%;
+}
+
+.personalinfo p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pform {
+    display: none;
+}
+
+.personalinfo:hover .pform {
+    display: inline;
+}
+
+.form-control {
+    margin-top: 10px;
+    height: 40px;
+}
+
+.esclass {
+    display: flex;
+}
+
+.esclass label {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.esclass select {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.esclass input {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.fform {
+    display: none;
+}
+
+.financialdetails {
+    padding-left: 35px;
+    width: 25%;
+}
+
+.financialdetails p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fform p {
+    font-size: 15px;
+}
+
+.financialdetails:hover .fform {
+    display: inline;
+}
+
+.kform {
+    display: none;
+}
+
+.NextOfKinDetails {
+    padding-left: 35px;
+    width: 25%;
+}
+
+.NextOfKinDetails p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kform p {
+    font-size: 15px;
+}
+
+.NextOfKinDetails:hover .kform {
+    display: inline;
+}
+
+.firstcont {
+    float: left;
+    width: 100%;
+}
+
+.secondcont {
+    float: right;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgb(175, 174, 174);
+    margin-top: -60px;
+    position: absolute;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.cont {
+    margin-left: 20px;
+}
+
+.cont h4 {
+    margin-left: 240px;
+    font-size: 25px;
+}
+
+.planscont {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.plan {
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.planscont label {
+    font-weight: bold;
+}
+
+.monthcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp {
+    margin-top: 20px;
+    width: 150%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.timecont {
+    display: flex;
+}
+
+.yearcont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+.inttimecont {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.inttimecont label {
+    font-weight: bold;
+}
+
+.inttimecont input {
+    width: 20%;
+    height: 40px;
+    text-align: center;
+}
+
+.subbtn {
+    margin-left: 20rem;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.inpl {
+    margin-top: 30px;
+    width: 150%;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+    .planscont {
+        margin-left: 10px;
+    }
+    .personalinfo {
+        width: 90%;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .financialdetails {
+        width: 90%;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .NextOfKinDetails {
+        width: 90%;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .toptxt h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 38px;
+    }
+    .firstcont {
+        float: none;
+        width: 100%;
+    }
+    .secondcont {
+        float: none;
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cont {
+        margin-left: 0px;
+    }
+    .cont h4 {
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .timecont {
+        margin-left: -50px;
+        flex-direction: column;
+    }
+    .monthcont {
+        width: 60%;
+    }
+    .yearcont {
+        margin-left: 0px;
+        width: 60%;
+    }
+    .inttimecont {
+        margin-left: 50px;
+    }
+    .subbtn {
+        margin-left: 170px;
+    }
+}
