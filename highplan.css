@@ -205,41 +205,43 @@ body {
         margin-left: 10px;
     }
     .personalinfo {
-        width: 90%;
+        width: 80%;
         padding: 0px;
         margin-left: 20px;
     }
     .financialdetails {
-        width: 90%;
+        width: 80%;
         padding: 0px;
         margin-left: 20px;
     }
     .NextOfKinDetails {
-        width: 90%;
+        width: 80%;
         padding: 0px;
         margin-left: 20px;
     }
     .toptxt h1 {
         text-align: center;
         width: 100%;
-        font-size: 38px;
+        font-size: 25px;
     }
+    
     .firstcont {
         float: none;
-        width: 100%;
+        width: 80%;
+        margin-left: 15px;
     }
     .secondcont {
         float: none;
         margin-top: 30px;
-        width: 100%;
-        margin-left: 0px;
+        width: 80%;
+        margin-left: 10px;
     }
     .cont {
-        margin-left: 0px;
+        margin-left: 10px;
     }
     .cont h4 {
-        margin-left: 0px;
-        font-size: 30px;
+        margin-left: 10px;
+        font-size: 20px;
         text-align: center;
     }
     .timecont {

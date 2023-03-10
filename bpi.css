@@ -54,11 +54,11 @@ body {
 
 @media screen and (max-width: 800px) {
     .bodycont h3 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .bp {
         flex-direction: column;
-        margin-left: 40px;
+        margin-left: -35px;
     }
     .card {
         margin-top: 20px;
